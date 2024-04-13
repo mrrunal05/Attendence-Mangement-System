@@ -1,2 +1,4 @@
-# Urban-Connect
-This is a project made basically for connecting freelancers, entrepreneurs, business owners, clients looking for some helpers.
+# Attendance Management System
+This is a project made to simplify the hectic process of manually taking the attendence in the classes.
+<br>
+It will prevent mal-practices like the proxy attendence, save time and paper. 
