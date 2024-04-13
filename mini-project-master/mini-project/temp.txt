@@ -1,0 +1,33 @@
+// function myFunction() {
+//   // Replace this with your desired functionality
+//   window.location.href = "mini3.html"; // Replace with the URL of your next page
+// }
+// function myFunction_fp() {
+//   // Replace this with your desired functionality
+//   var newPageUrl = "mini10.html"; // Replace with the URL of your next page
+//   window.open(newPageUrl, '_blank');
+// }
+// function myFunction3() {
+//   // Replace this with your desired functionality
+//   window.location.href = "mini4.html"; // Replace with the URL of your next page
+// }
+// function myFunction4() {
+//   // Replace this with your desired functionality
+//   window.location.href = "mini3.html"; // Replace with the URL of your next page
+// }
+// function myFunction_new123() {
+// window.location.href = "mini6.html"; // Replace with the URL of your next page
+// }
+// function myFunction6_j() {
+//   // Replace this with your desired functionality
+//   window.location.href = "mini7.html"; // Replace with the URL of your next page
+// }
+// function myFunction6_c() {
+//   // Replace this with your desired functionality
+//   window.location.href = "mini8.html"; // Replace with the URL of your next page
+// }
+// function myFunction_new() {
+//   // Replace this with your desired functionality
+//   window.location.href = "mini6.html"; // Replace with the URL of your next page
+// }
+const apiUrl = 'https://takemyattendence-27rl.onrender.com/signup';

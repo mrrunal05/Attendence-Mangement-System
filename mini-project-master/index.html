@@ -1,0 +1,45 @@
+<!-- Login page mini 1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="css/signin.css">
+<link rel="icon" type="image/png" href="assets/logo_index.png">
+<script src="js/auth.js"></script>
+</head>
+<body>
+    <div id="logo_image">
+        <img src="assets/logo_index.png">
+    </div>
+    <div id="login">
+    <h1>Welcome</h1>
+    <div class="input">
+    <input id="email" placeholder="email"  type="text" required>
+    <i class="ri-user-3-fill"></i>
+    </div>
+    <div class="input">
+    <input id="password" placeholder="Password"  type="password" required>
+    <i class="ri-key-fill"></i>
+    <!-- <i class="ri-eye-off-fill"></i> -->
+    </div>
+    <a href="forgot_password.html" id="forgot_pass">Forgot password?</a>
+    <button id="login_b" onclick="login()" type="button">Login</button>
+    
+    <div id="further">
+    <small class="dimag">
+    Don't have an account?
+    </small>
+    <small class="dimag">
+    <!-- <font size="2px"  element  </font>-->
+    <a href="signup.html">SignUp</a> 
+    </small>
+    </div>
+    </div>
+</body>
+</html>

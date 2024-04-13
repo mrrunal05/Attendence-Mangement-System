@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hold</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+<link rel="stylesheet" href="css/holdclasses.css">
+<link rel="icon" type="image/png" href="assets/logo_index.png">
+
+<script src="js/holdClasses.js"></script>
+
+</head>
+<body>
+    <div id="class">
+        <div id="navbar">
+            <div id="profile">
+                
+            </div>
+            <button id="tc" onclick="takeClass()">Take Class</button>
+            <button id="profile_img" onclick="requested()">
+                <i class="fa-regular fa-circle-user"></i>
+            </button>
+        </div>
+        <div id="status">
+            <div id="uploaded" onclick="uploadlist()">
+                <h5 id="ud">Uploaded</h5>
+            </div>
+            <div id="hold" onclick="holdlist()">
+                <h5 id="hd">Hold</h5>
+            </div>
+        </div>
+        <div id="lists">
+        <ul id="info">
+          
+        </ul>
+    </div>
+    </div>
+</body>
+</html>

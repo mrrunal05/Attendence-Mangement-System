@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: rgb(222, 222, 222); */
+}
+
+#resendOTP{
+    cursor: pointer;
+}
+#OTP{
+    background-color: rgb(162, 196, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    width:290px;
+    /* border: 3px solid rgb(245, 241, 116); */
+    border-radius: 60px;
+    position: relative;
+}
+#OTP input{
+    color: rgb(30, 79, 119);
+    /* background-color: #cccfd1; */
+    font-weight: 550;
+    font-size: 25px;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 150px;
+    /* position: relative; */
+    margin-top: 50px;
+}
+::placeholder{
+    color: black;
+    font-weight: 530;
+    font-size: 20px;
+}
+button{
+    color: white;
+    background-color: rgb(30, 79, 119);
+    width: 150px;
+    height: 53px;
+    border: none;
+    border-radius: 25px;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 530;
+    margin: 25px 0 52px 0;
+    transition: all 100ms steps(6);
+}
+button:hover{
+    scale: 1.1;
+}
+button:active{
+    scale: 1.1;
+    border: 1px solid black;
+    color: grey;
+    background-color: white;
+}
